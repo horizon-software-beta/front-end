@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de edicion de productos</title>
+    <link rel="stylesheet" href="Edicion de productos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="table">
+        <div class="table_header">
+            <p>Detalles del producto</p>
+            <div>
+                <input placeholder="producto"/>
+                <button class="add_new">+ Agragar nuevo</button>
+            </div>
+        </div>
+        <div class="table_section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Nombre</th>
+                        <th>Imagen</th>
+                        <th>Descripcion</th>
+                        <th>Eliminar o modificar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dulce</td>
+                        <td>Masapan</td>
+                        <td><img src="mazapan.png"></td>
+                        <td>Dulce mexicano de pequeño tamaño, elaborado con azúcar, cacahuate y saborizante artificial</td>
+                        <td>
+                            <button><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dulce</td>
+                        <td>Paleta de la rosa</td>
+                        <td><img src="Paleta rosa.png"></td>
+                        <td>Paleta de caramelo rellena de goma de mascar.</td>
+                        <td>
+                            <button><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

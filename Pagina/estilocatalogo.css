@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Titan+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Alatsi';
+	background: url(img/Fondo2.avif);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.informacion{
+	background-color: #B04B2A;
+	color: #F9F0E7;
+	padding: 0px 0;
+	height: 90px;
+}
+
+header{
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 7px;
+	align-items: center;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+nav ul li{
+	padding: 0 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.Logo a img{
+	width: 200px;
+	margin: -50px;
+	text-align: center;
+	padding: 10 10px;
+}
+
+section{
+	padding-top: 100px;
+	text-align: center;
+	width: 100%;
+}
+section h1{
+	font-size: 100px;
+	color: rgb(0, 0, 0);
+}
+section a{
+	display: inline-block;
+	font-size: 20px;
+	display:inline-block;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	border: 4px solid rgb(0, 0, 0);
+	border-radius: 8px;
+	padding: 5px 15px;
+}
+
+/**/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #000;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#EDDB91;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #FF8259;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #000;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #000000;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 8px;
+}
+.card .contenido-card a:hover{
+	background:  #B04B2A;
+	color: #ffffff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+/*Fin-Cards*/
+.container-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  .card {
+	width: 30%;
+	margin: 0 1.5%;
+	margin-bottom: 2rem;
+	text-align: center;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+	transition: box-shadow 0.3s ease;
+  }
+  .card:hover {
+	box-shadow: 0 8px 16px rgba(0,0,0,0.16);
+  }
+  
+  body {
+	background-color: #B2B7CA; /* Fondo de color salmón */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

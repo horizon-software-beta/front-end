@@ -1,0 +1,140 @@
+/*selecciona todos los elementos de el documento*/
+* {
+  /*relleno que se crea alrededor del contenido de un elemento dentro de los bordes definidos */
+  padding: 0;
+  /*evitar tener que establecer cada lado por separado con las otras propiedades de margen*/
+  margin: 0;
+  /*le dice al navegador tomar en cuenta para cualquier valor que se especifique de borde o de relleno para el ancho o alto de un elemento.*/
+  box-sizing: border-box;
+/*Se cierra la seleccion*/
+}
+
+.informacion{
+	background-color: #F9F0E7;
+	color: rgb(255, 255, 255);
+	padding: 0px 0;
+	height: 90px;
+}
+.Logo a img{
+	width: 200px;
+	margin: -50px;
+	text-align: center;
+	padding: 10 10px;
+}
+
+/*es dónde se sitúa el texto del documento.*/
+body {
+  /*permite establecer de forma simultánea un color y una imagen de fondo*/
+  background-image: url(Plan\ b.png);
+/*Se cierra los atributos*/
+}
+
+/*nos permite controlar la creación de usuario (la tabla en si)*/
+.form-register {
+  /*Especifica la anchura del area de contenido de el cuadro(ancho de la tabla)*/
+  width: 400px;
+  /*define el color de fondo de la tabla (color de interior de la tabla)*/
+  background: #EDDB91;
+  /*relleno en los cuatro,lados de un elemento a la vez*/
+  padding: 30px;
+  /*establece el margen para los cuatro lados*/
+  margin: auto;
+  /* establece el margen para los cuatro lados (que tan abajo esta)*/
+  margin-top: 70px;
+  /*establece el redondeo de la esquina superior izquierda del elemento (que las orillas se hacen redondas)*/
+  border-radius: 4px;
+  /*define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado*/
+  font-family: 'calibri';
+  /*Color de la letra adentro del recuadro*/
+  color: rgb(0, 0, 0);
+  /*sombras alradedor del recuadro*/
+  box-shadow: 7px 13px 37px #000;
+  /*Se cierra los atributos*/
+}
+/*Nos permite controlar la letra h4*/
+.form-register h4 {
+  /*especifica la dimensión de la letra*/
+  font-size: 22px;
+  /*establece el espacio requerido en la parte inferior de un elemento (Espacio que necesita para bajar de la letra o entre ellos)*/
+  margin-bottom: 20px;
+/*Se cierra los atributos*/
+}
+/*Nos permite controlar la clase controls*/
+.controls {
+  /*especifica la anchura del area de contenido de la parte de escripcion.*/
+  width: 100%;
+  /*Altera el color del recuadro de la clase controls*/
+  background: #ffffff;
+  /*Altera el tamaño del cuadro*/
+  padding: 10px;
+  /*Hace que el recuadro sea circular o cuadrado*/
+  border-radius: 10px;
+  /*establece el espacio requerido en la parte inferior de un elemento (Espacio que necesita para bajar entre ellos)*/
+  margin-bottom: 16px;
+  /*Permite definir en una única regla todos los bordes de los elementos seleccionados(Altera el color del contorno del cuadro)*/
+  border: 1px solid #E7EFF2;
+  /*define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado*/
+  font-family: 'calibri';
+  /*especifica la dimensión de la letra*/
+  font-size: 20px;
+  /*Cambia el color de la letra al escribir ALERTA(Fijate soy de tu pasado fijate)*/
+  color: rgb(0, 0, 0);
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar lo que este dentro de placeholder(osea el color de la letra secundaria del recuadro de escritura*/
+input::placeholder{
+  /*Cambia el color de la letra al escribir ALERTA(El color de el principio sin escrivir)*/
+  color:#000000;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar lo que este dentro de la clase form-register p*/
+.form-register p {
+  /*Permite controlar el recuadro hacia la parte de abajo(Nos deja manipular lo largo del recuadro*/
+  height: 20px;
+  /*Permite alinear el link hacia el centro*/
+  text-align: center;
+  /*Tamaño de la letra del link*/
+  font-size: 18px;
+  /*Que tan abajo esta de el texto,recuadro,boton etc*/
+  line-height: 40px;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar lo que este dentro de la clase form-register a(el enlace de las paguinas web)*/
+.form-register a {
+  /*Afecta el color de el link*/
+  color: rgb(41, 40, 40);
+  /*establecer el formato de texto a subrayado*/
+  text-decoration: underline;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar lo que este dentro de la clase form-register a(hover pseudo-propiedad en el enlace de la clase y le dan un color diferente)*/
+.form-register a:hover {
+  /*Al momento de poner o apretar la propiedad el link se pondra del color puesto en la linea*/
+  color: rgb(0, 0, 0);
+   /*establecer el formato de texto a subrayado*/
+  text-decoration: underline;
+/*Se cierra los atributos*/
+}
+
+ /*establecer el formato de texto a subrayado*/
+.form-register .botons {
+  /*especifica la anchura del area de contenido de la parte de escripcion 8lo largo del boton).*/
+  width: 100%;
+  /*Afecta el color de el boton*/
+  background: #FF8259;
+  /*Pone un borde al boton*/
+  border: none;
+  /*Altera lo largo del boton*/
+  padding: 12px;
+  /*Color de la letra dentro del boton*/
+  color: rgb(0, 0, 0);
+  /*Altera la altura hacia letras,recuadros o botones)*/
+  margin: 16px 0;
+  /*Altera la el tamaño de la letra dentro del boton*/
+  font-size: 16px;
+/*Se cierra los atributos*/
+}

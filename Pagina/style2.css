@@ -1,0 +1,152 @@
+/*selecciona todos los elementos de el documento*/
+* {
+  /*relleno que se crea alrededor del contenido de un elemento dentro de los bordes definidos */
+  padding: 0;
+  /*evitar tener que establecer cada lado por separado con las otras propiedades de margen*/
+  margin: 0;
+  /*le dice al navegador tomar en cuenta para cualquier valor que se especifique de borde o de relleno para el ancho o alto de un elemento.*/
+  box-sizing: border-box;
+/*Se cierra la seleccion*/
+}
+.informacion{
+	background-color: #F9F0E7;
+	color: rgb(255, 255, 255);
+	padding: 0px 0;
+	height: 90px;
+}
+.Logo a img{
+	width: 200px;
+	margin: -50px;
+	text-align: center;
+	padding: 10 10px;
+}
+
+/*es dónde se sitúa el texto del documento.*/
+body {
+  /*define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado*/
+  font-family: arial;
+  /*permite establecer de forma simultánea un color y una imagen de fondo*/
+  background-image: url(Plan\ b.png);
+/*Se cierra los atributos*/
+}
+
+/*permite precisamente que el visitante ingrese sus datos de acceso(Altera los datos de la tabla)*/
+.form-login {
+  /*Especifica la anchura del area de contenido de el cuadro(ancho de la tabla)*/
+  width: 400px;
+  /*define el color de fondo de la tabla (color de interior de la tabla)*/
+  background: #EDDB91;
+  /*relleno en los cuatro,lados de un elemento a la vez*/
+  padding: 30px;
+  /*establece el margen para los cuatro lados*/
+  margin: auto;
+  /* establece el margen para los cuatro lados (que tan abajo esta)*/
+  margin-top: 100px;
+  /*establece el redondeo de la esquina superior izquierda del elemento (que las orillas se hacen redondas)*/
+  border-radius: 4px;
+  /*define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado*/
+  font-family: 'calibri';
+  /*Color de la letra adentro del recuadro*/
+  color: rgb(0, 0, 0);
+  /*sombras alradedor del recuadro*/
+  box-shadow: 7px 13px 37px #000;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar la letra h5*/
+.form-login h5 {
+  /*para dar la alineación del texto del elemento*/
+  text-align: center;
+  /*especifica la altura de las letras(Especifica el espacio de alto entre las letras*/
+  height: 40px;
+  /*establece el espacio requerido en la parte inferior de un elemento (Espacio que necesita para bajar de la letra o entre ellos)*/
+  margin-bottom: 30px;
+  /*tamaño dela linea abajo de formulario*/
+  border-bottom: 1px solid;
+  /*Altera la el tamaño de la letra del (formulario)*/
+  font-size: 20px;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar la clase controls*/
+.controls {
+  /*Altera lo lorgo del mando de escripcion*/
+  width: 100%;
+  /*Altera el color de alrededor del recuadro de escripcion*/
+  border: 1px solid #ffffff;
+  /*Nos permite controlar el espacio entre los 2 cuadros de escribir*/
+  margin-bottom: 15px;
+  /*El primero px controla la altura de la escripcion y el segundo lo largo*/
+  padding: 11px 10px;
+  /*Afecta el color de dentro del cuadro*/
+  background: #ffffff;
+  /*especifica la dimensión de la letra*/
+  /*borde de la entrada*/
+  border-radius: 10px;
+  font-size: 14px;
+  /*especifica el peso o grueso de la letra*/
+  font-weight: bold;
+  /*Afecta el color de la escritura adentro del recuadro*/
+  color: rgb(0, 0, 0);
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar lo que este dentro de placeholder(osea el color de la letra secundaria del recuadro de escritura*/
+input::placeholder{
+  /*Cambia el color de la letra al escribir ALERTA(El color de el principio sin escrivir)*/
+  color:#000000;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar lo que este dentro de la clase buttons*/
+.buttons {
+  /*Altera lo lorgo del boton*/
+  width: 100%;
+  /*Cambia la altura del boton*/
+  height: 40px;
+  /*Cambia el color de el boton*/
+  background: #FF8259;
+  /*Altera el borde de el boton*/
+  border: none;
+  /*Color de la letra del boton*/
+  color: rgb(0, 0, 0);
+  /*Altera la altura del boton a los link*/
+  margin-bottom: 16px;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar la clase form-login*/
+.form-login p{
+  /*Cambia la altura del link*/
+  height: 40px;
+  /*para dar la alineación del texto del elemento*/
+  text-align: center;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar la clase form-login (el enlace de las paguinas web)*/
+.form-login a {
+  /*Color de el enlace*/
+  color: rgb(68, 66, 66);
+  /*establecer el formato de texto a subrayado*/
+  text-decoration: underline;
+  /*Altera la el tamaño de la letra dentro del boton*/
+  font-size: 14px;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar lo que este dentro de la clase form-register a(hover pseudo-propiedad en el enlace de la clase y le dan un color diferente)*/
+.form-login a:hover {
+  /*Al momento de poner o apretar la propiedad el link se pondra del color puesto en la linea*/
+  color: rgb(0, 0, 0);
+   /*establecer el formato de texto a subrayado*/
+  text-decoration: underline;
+/*Se cierra los atributos*/
+}
+
+/*Nos permite controlar lo que este dentro de la clase form-register a(hover pseudo-propiedad en el enlace de la clase y le dan un color diferente)*/
+.form-login a:hover {
+  /*establecer el formato de texto a subrayado*/
+  text-decoration: underline;
+/*Se cierra los atributos*/
+}
